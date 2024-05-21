@@ -15,11 +15,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img src={Logo} className='mr-5 h-36 rounded-full align-middle'/>
+            <img src={Logo} className='mr-5 h-44 rounded-full align-middle'/>
             {/* <Link to="/" className="text-blue-600 text-xl align-middle border-l-2 pl-4">RC Bida Central</Link> */}
           </div>
           <div className="-mr-2 flex md:hidden">
-            <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-teal-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md text-blue-900 hover:text-teal-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
               <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 {isOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
@@ -31,11 +31,11 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link to='/' className='text-amber-500 duration-500 hover:text-lg'>Home</Link>
-              <Link to='/about' className='text-amber-500 duration-500 hover:text-lg'>About</Link>
-              <Link className='text-amber-500 duration-500 hover:text-lg' to='/newsletter'>Newsletter & Events</Link>
-              <Link to='/contact' className='text-amber-500 duration-500 hover:text-lg'>Contact Us</Link>
-              <Link className='text-amber-500 duration-500 hover:text-lg'>Catalogue</Link>
+              <Link to='/' className='text-amber-500 duration-500 text-lg hover:text-xl'>Home</Link>
+              <Link to='/about' className='text-amber-500 duration-500 text-lg hover:text-xl'>About</Link>
+              <Link className='text-amber-500 duration-500 text-lg hover:text-xl' to='/newsletter'>Newsletter & Events</Link>
+              <Link to='/contact' className='text-amber-500 duration-500 text-lg hover:text-xl'>Contact Us</Link>
+              <Link className='text-amber-500 duration-500 text-lg hover:text-xl'>Showcase</Link>
               {/* <Link to="/" className="text-white font-semibold text-md px-8 py-2 mx-2 bg-blue-900 hover:bg-blue-700 duration-500  rounded-3xl">Donate</Link> */}
               <Link to="/participate" className="text-blue-900 font-semibold text-md px-8 py-2 mx-2 bg-blue-200 hover:bg-amber-500 duration-500 rounded-3xl">Participate</Link>
             </div>
