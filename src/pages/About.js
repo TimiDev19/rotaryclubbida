@@ -12,7 +12,7 @@ function About() {
                 <p className='text-white w-1/2'>We meet <span className='text-amber-500'>every Tuesday at 18:30</span> in person at <span className='text-amber-500'>Taste Palace Hotel</span></p>
                 <Link to='/participate' className='text-white px-5 py-2 border-white border-2 border-solid hover:text-black hover:bg-white duration-500 justify-start w-fit mt-3'>Participate</Link>
             </div>
-            <div className='h-fit p-20'>
+            <div className='h-fit p-20 bg-blue-900'>
                 <h1 className='text-blue-900 uppercase text-4xl my-4 font-semibold'>A small insight to the world of rotary</h1>
                 {/* <div className='bg-blue-900 w-1/2 m-auto p-8 rounded-2xl text-left'>
                     <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>The four way test</h1>
@@ -35,9 +35,9 @@ function About() {
 
 
                 <div className='flex flex-row justify-between items-center w-full my-11'>
-                    <div className='bg-blue-200 w-5/12 p-8 rounded-2xl text-left'>
+                    <div className='bg-white w-5/12 p-8 rounded-2xl text-left'>
                         <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1 flex items-start flex-col justify-start'><img src={transparentLogo} className='w-1/4 mr-3' />Vision statement</h1>
-                        <p className='text-blue-900'>
+                        <p className='text-blue-900 text-lg font-semibold'>
                             Together we see a world where people unite and take action to create lasting change - across the globe, in our communities, and in ourselves.
                         </p>
                     </div>
@@ -68,9 +68,9 @@ function About() {
                     </div> */}
 
 
-                    <div className='bg-blue-200 w-5/12 p-8 rounded-2xl text-left'>
+                    <div className='bg-white w-5/12 p-8 rounded-2xl text-left'>
                         <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1 flex flex-col items-start justify-start'><img src={transparentLogo} className='w-1/4 mr-3' />core values</h1>
-                        <p className='text-blue-900'>
+                        <p className='text-blue-900 text-lg font-semibold'>
                             Our core values are Service, Fellowship, Leadership, Integrity, Diversity
                         </p>
                     </div>
@@ -78,9 +78,9 @@ function About() {
 
 
 
-                <div className='bg-blue-200 w-3/5 m-auto p-8 rounded-2xl text-left'>
+                <div className='bg-white w-3/5 m-auto p-8 rounded-2xl text-left'>
                     <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>object of rotary</h1>
-                    <p className='text-blue-900 mb-5'>
+                    <p className='text-blue-900 mb-5 text-lg font-semibold'>
                         The Object of Rotary is to encourage and foster the ideal of service as a basis of worthy enterprise and, in particular, to encourage and foster:
                     </p>
                     <p className='font-semibold text-amber-500'><span className='text-blue-900 uppercase'>First: </span>The development of acquaintance as an opportunity for service</p>
@@ -100,9 +100,9 @@ function About() {
                         </p>
                     </div> */}
 
-                    <div className='bg-blue-200 w-2/5 p-8 rounded-2xl text-left'>
+                    <div className='bg-white w-2/5 p-8 rounded-2xl text-left'>
                         <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>The four way test</h1>
-                        <p className='text-blue-900 mb-5'>
+                        <p className='text-blue-900 mb-5 text-lg font-semibold'>
                             The Four-Way Test is a nonpartisan and nonsectarian ethical guide for Rotarians to use for their personal and professional relationships. The test has been translated into more than 100 languages, and Rotarians recite it at club meetings:
                             Of the things we think, say or do
                         </p>
@@ -114,9 +114,9 @@ function About() {
 
 
 
-                    <div className='bg-blue-200 w-2/5 p-8 rounded-2xl text-left'>
+                    <div className='bg-white w-2/5 p-8 rounded-2xl text-left'>
                         <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>Areas Of Focus</h1>
-                        <p className='text-blue-900 mb-5'>We direct our efforts to enhance our local and global impact. Our most successful and sustainable projects and activities tend to fall within the following areas:</p>
+                        <p className='text-blue-900 mb-5 text-lg font-semibold'>We direct our efforts to enhance our local and global impact. Our most successful and sustainable projects and activities tend to fall within the following areas:</p>
                         <p className='font-semibold text-amber-500'>Promoting peace</p>
                         <p className='font-semibold text-amber-500'>Fighting Disease</p>
                         <p className='font-semibold text-amber-500'>Providing clean water</p>
