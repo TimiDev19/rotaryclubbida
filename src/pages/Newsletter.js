@@ -37,7 +37,7 @@ function Newsletter() {
                         </p>
                     </div>
                 </div> */}
-                <Carousel />
+                <Carousel/>
 
                 <h1 className='mt-9 text-3xl font-bold text-left text-blue-900 uppercase'>From the desk of the club president</h1>
                 <div className='h-1 w-1/12 bg-amber-500 mt-1 mb-5'></div>

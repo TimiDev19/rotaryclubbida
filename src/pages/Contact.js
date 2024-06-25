@@ -3,8 +3,8 @@ import React from 'react'
 function Contact() {
     return (
         <div>
-            <div className='h-screen bg-white py-24 flex flex-row items-center justify-center'>
-                <div className='w-1/2 text-left px-5'>
+            <div className='md:h-screen bg-white md:py-24 flex flex-col md:flex-row items-center justify-center'>
+                <div className='md:w-1/2 text-left px-5'>
                     <h1 className='text-blue-900 font-bold text-6xl'>Contact Us</h1>
                     <p className='text-blue-900 font-thin text-lg'>Reach out to us, you don't have to be a member to participate. Rotary accepts anyone willing to help the world and selflessly serve humanity</p>
                     <p className="mb-4 flex items-center justify-center md:justify-start text-blue-900 mt-5">
@@ -67,7 +67,7 @@ function Contact() {
                         rcbidacentral
                     </p>
                 </div>
-                <form className='w-1/2 p-6'>
+                <form className='md:w-1/2 p-6'>
                     <div className='bg-blue-900 h-fit p-6 rounded-2xl'>
                         <h1 className='text-white font-bold text-4xl my-4 text-left'>We would love to hear from you</h1>
                         <div className='grid grid-cols-2 w-full items-center justify-between'>
